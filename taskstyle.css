@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    list-style: none;
+    font-weight: bolder;
+    display: flex;
+    margin: 15px;
+    margin-top: -5px;
+    font-size: x-large;
+    text-align: center;
+}
+#logo{
+    margin-right: 160px;
+    margin-left: 0px;
+}
+li{
+    margin: 30px;
+    margin-right: 110px;
+}
+.imgnav{
+    display: flex;
+    margin-left: 50px;
+}
+.imgnav li{
+    margin-top: 30px;
+    margin-right: 5px;
+}
+#line{
+    margin-top: -40px;
+}
+.content{
+    display: flex;
+}
+
+
