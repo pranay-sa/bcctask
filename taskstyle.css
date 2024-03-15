@@ -91,6 +91,9 @@ a{
 #gap{
     margin: 30px;
 }
+.hidethis{
+    display: none;
+}
 button{
     font-size: 1.5rem;
     color: white;
@@ -113,4 +116,7 @@ button{
 #navbar a:hover{
     border-bottom: 10px solid green;
     border-radius: 7px;
+}
+#backh{
+    height: 40px;
 }

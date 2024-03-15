@@ -11,3 +11,7 @@ document.querySelector('.btnright').addEventListener('click',function(){
         alert("check the consent checkbox");
     }
 })
+document.getElementById('backh').addEventListener('click',function(){
+    document.querySelector('.sidebar').classList.add("hidethis");
+    console.log("CLICKED THIS");
+})
