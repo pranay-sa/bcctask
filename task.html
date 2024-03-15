@@ -7,15 +7,15 @@
     <body>
         <ul id="navbar">
             <li id="logo">Logo</li>
-            <li>Home</li>
-            <li>Services</li>
-            <li>Blog</li>
-            <li>Offers</li>
-            <li>About Us</li>
+            <a href="#"><li>Home</li></a>
+            <a href="#"><li>Services</li></a>
+            <a href="#"><li>Blog</li></a>
+            <a href="#"><li>Offers</li></a>
+            <a href="#"><li>About Us</li></a>
             <div class="imgnav">
-                <li><img src="search.png"></li>
-                <li><img src="Alarm.png"></li>
-                <li><img src="profile.png"></li>
+                <a href="#"><li><img src="search.png"></li></a>
+                <a href="#"><li><img src="alert.png"></li></a>
+                <a href="#"><li><img src="profile.png"></li></a>
             </div>
         </div>
         </ul>
@@ -23,12 +23,13 @@
         <section class="content">
             <aside class="sidebar">
                 <ul>
-                    <li>My Dashboard</li>
-                    <li>TOTM Links</li>
-                    <li>Daily Summary</li>
-                    <li>Bank Details</li>
+                    <li><img src="mydashboard.jpg"><a href="#">My Dashboard<img src="arrow.jpg"></a></li>
+                    <li><img src="totmlinks.jpg"><a href="#">TOTM Links<img src="arrow.jpg"></a></li>
+                    <li><img src="dailysummary.jpg"><a href="#">Daily Summary<img src="arrow.jpg"></a></li>
+                    <li><img src="bank.jpg"><a href="#">Bank Details<img src="arrow.jpg"></a></li>
                 </ul>
             </aside>
+            <div id="vline"></div>
             <section class="sec1">
                 <h1>Update Bank Details</h1>
                 <p id="sometext"><b>some text some text some text some text some text some text some text some text some text<br> some text some text some text some text some text some text some text some text some text</b></p> 
@@ -61,16 +62,19 @@
                         <label for="Acchr">Relation With Account Holder</label>
                         <input name="Acchr" placeholder="Relation With Account Holder"><br>
                     </div>
-                    <div id="gap" class="gapbox">
+                    <div id="gap">
                         <label>Consent</label>
-                        <input type="checkbox" name="check">
-                        <label for="check">Some text Some text Some<br> Some text Some text Some</label>
-                        <span id="Datefilled"></span></label><br>
+                        <div class="gapbox">
+                            <input name="consent" type="checkbox">
+                            <label>Some text Some text<br>Some text Some text</label><br>
+                            <span id="dateFilled"></span></label>
+                        </div>
                     </div>
                     <button class="btnright">SAVE</button>
                 </div>
                 <p id="lastpara">The Above Details are final and will be used for payment. If any of these details are wrong, please<br> contact your manager immediately! Also email the same to Accounts@exambazar.com</p>
             </section>
         </section>
+        <script src="task.js"></script>
     </body>
 </html>
